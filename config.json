@@ -1,0 +1,41 @@
+{
+  "name": "custom-compiled-hosts",
+  "description": "Custom compiled hosts from multiple sources",
+  "sources": [
+    {
+      "source": "https://gh-pages.ewpratten.com/youtube_ad_blocklist/hosts.ipv4.txt",
+      "name": "youtube_ad_blocklist",
+      "type": "hosts"
+    },
+    {
+      "source": "https://hosts.ubuntu101.co.za/hosts",
+      "name": "ubuntu_hosts",
+      "type":  "hosts"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/master/subscriptions/hosts_adult.txt",
+      "name": "indonesian_adblock",
+      "type":  "hosts"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/bebasid/bebasid/master/releases/hosts",
+      "name": "bebasid_hosts",
+      "type":  "hosts"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/bongochong/CombinedPrivacyBlockLists/master/newhosts-final.hosts",
+      "name": "combined_privacy_block_lists",
+      "type":  "hosts"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/sambhavk/google-youtube-ad-Block-Hosts-list/main/hosts",
+      "name": "google_youtube_ad_block",
+      "type":  "hosts"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts",
+      "name": "stevenblack_hosts",
+      "type":  "hosts"
+    }
+  ]
+}
